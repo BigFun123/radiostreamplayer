@@ -1,0 +1,85 @@
+@import url('https://fonts.cdnfonts.com/css/d-din');
+
+body {
+    font-family: d-din, sans-serif;
+}
+
+.radiowidget {
+    width: 400px;
+    height: 100px;
+    padding: 5px;
+    background-color: #a8a8a8;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;    
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.radiowidget .topsection {
+    display: flex;
+    flex-direction: row;
+    align-items: start;    
+    color: #fff;
+}
+
+.radiowidget .info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 5px;
+}
+
+.radiowidget .cover {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.radiowidget .player {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radiowidget .player audio {
+    width: 100%;
+    height: auto;
+}
+
+.radiowidget .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+}
+
+.radiowidget .controls button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.radiowidget .controls button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.radiowidget .metadata {
+    text-align: center;    
+    font-size: 12px;
+}
+
+.radiowidget .metadata span {
+    color: #999;
+}
